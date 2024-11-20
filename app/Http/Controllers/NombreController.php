@@ -46,7 +46,7 @@ class NombreController extends Controller
            $compt = $tab[0];
             var_dump($tab);
            for ($i = 1; $i <= count($tab)-1; $i++) {
-               echo "zeze";
+            
                $compt -= intval($tab[$i]);
            }
            echo "Le Resultat est  = : ".$compt;
